@@ -5,9 +5,14 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <div class="contain">
-        <AiFillGithub/>       
-      <AiFillFacebook/>
-      <h3>Mi github</h3>
+        <a href="https://github.com/AlvaroLlovera23" class="myLink">
+            <AiFillGithub/> 
+            Mi github 
+        </a>
+        <a href="https://www.facebook.com/alvaro.llovera" class="myLink">
+            <AiFillFacebook/>
+            Mi facebook
+        </a>
     </div>
   )
 }

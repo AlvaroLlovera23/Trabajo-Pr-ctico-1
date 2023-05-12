@@ -1,0 +1,14 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    border: 5px solid green;
+    border-radius: 50%;
+    max-width: 25%;
+    max-height: 25%;
+    width: auto;
+    height: auto;
+  }

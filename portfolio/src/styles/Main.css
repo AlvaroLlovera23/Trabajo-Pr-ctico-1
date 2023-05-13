@@ -5,14 +5,25 @@
   }
   
   .image {
-    border: 5px solid green;
+    border: 5px solid black;
     border-radius: 50%;
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 50%;
+    max-height: 50%;
     width: auto;
     height: auto;
   }
 
   .pMain{
-    color: blue;
+    color: black;
+  }
+
+  .ClassNamepMain{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    max-height: 60%;
+    width: auto;
+    height: auto;
   }

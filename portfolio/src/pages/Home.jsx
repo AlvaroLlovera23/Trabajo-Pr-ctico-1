@@ -6,13 +6,29 @@ import Footer from '../components/Footer';
 
 function Home () {
 
-return (
-  <div className="div">
-    <Header/>
-    <Main/>
-    <Footer/>
- </div>
-);
+  const alumno = 
+  { 
+    nombre: 'Alvaro',
+    apellido: 'Llovera',
+    edad: 32,
+    legajo: '55994',
+    num_telefono: '3813009020',
+    email: 'alvarollovera14@gmail.com',
+    fav_deporte: 'Rugby'
+  }
+
+  /*const auto = {
+    marca: 'Ford',
+    modelo: 'Mustang',
+  }*/
+
+  return (
+    <div className="div">
+      <Header/>
+      <Main info = {alumno} /*car = {auto}}*//>
+      <Footer/>
+    </div>
+  );
 }
 
 export default Home

@@ -5,11 +5,12 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <div class="contain">
-        <a href="https://github.com/AlvaroLlovera23" class="myLink">
+      <h4>Redes: </h4>
+        <a href="https://github.com/AlvaroLlovera23" class="myLink" target="blank">
             <AiFillGithub/> 
             Mi github 
         </a>
-        <a href="https://www.facebook.com/alvaro.llovera" class="myLink">
+        <a href="https://www.facebook.com/alvaro.llovera" class="myLink" target="blank">
             <AiFillFacebook/>
             Mi facebook
         </a>

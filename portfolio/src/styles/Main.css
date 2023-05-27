@@ -34,3 +34,9 @@
     border-radius: 5px;
     border: 2px solid grey;
   }
+
+  .Card-Body {
+    background-color: aqua;
+  }
+
+

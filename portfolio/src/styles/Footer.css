@@ -1,5 +1,7 @@
 .contain{
     display: flexbox;
+    background-color:lightseagreen;
+    padding: 20px 0;
 }
 
 .myLink {
@@ -7,3 +9,5 @@
     text-decoration: none;
     margin: 5px;
   }
+
+ 

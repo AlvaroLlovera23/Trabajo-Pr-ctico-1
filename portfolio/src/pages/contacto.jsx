@@ -4,15 +4,15 @@ import MainContact from '../components/MainContact';
 import Footer from '../components/Footer';
 
 
-function contacto () {
+const Contacto = () =>{
 
     return (
-    <div className="div">
+    <>
       <Header/>
       <MainContact/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
-export default contacto
+export default Contacto

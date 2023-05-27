@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Form, Button, Table } from "react-bootstrap"
-import "../css/MainContact.css"
+// import "../css/MainContact.css"
 const MainContact = () => {
 
     const consultas = [{

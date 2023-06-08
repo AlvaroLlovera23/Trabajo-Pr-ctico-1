@@ -5,15 +5,15 @@ import { Form, Button, Table } from "react-bootstrap"
 const MainContact = () => {
 
     const consultas = [{
-        id: 1, nombre: "liliana diaz", email: "lili2022@gmail.com", descripcion: "quiero realizar una app"
-    },
-    { id: 2, nombre: "carlos lopez", email: "carlin@gmail.com", descripcion: "necesito un presupuesto" },
-    { id: 3, nombre: "diego ramirez", email: "dieguito21@gmail.com", descripcion: "necesito comunicarme con vos" }
+        id: 1, nombre: "liliana diaz", email: "lili2022@gmail.com", telefono: "3814221565", descripcion: "quiero realizar una app"},
+       {id: 2, nombre: "carlos lopez", email: "carlin@gmail.com", telefono: "3814214455",descripcion: "necesito un presupuesto" },
+       {id: 3, nombre: "diego ramirez", email: "dieguito21@gmail.com", telefono: "3814309877",descripcion: "necesito comunicarme con vos" }
     ]
 
     const [pedidos, setPedidos] = useState(consultas)
     const [nombre, setNombre] = useState("")
     const [email, setEmail] = useState("")
+    const [telefono, setTelefono] = useState ("")
     const [descripcion, setDescripcion] = useState("")
     const [id, setId] = useState(null)
 

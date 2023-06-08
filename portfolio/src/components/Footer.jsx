@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiFillGithub, AiFillFacebook} from 'react-icons/ai'
+import {AiFillGithub, AiFillFacebook, AiFillInstagram} from 'react-icons/ai'
 import '../styles/Footer.css';
 
 const Footer = () => {
@@ -13,6 +13,10 @@ const Footer = () => {
         <a href="https://www.facebook.com/alvaro.llovera" class="myLink" target="blank">
             <AiFillFacebook/>
             Mi facebook
+        </a>
+        <a href="https://www.instagram.com/alvarollovera16/" class="myLink" target="blank">
+            <AiFillInstagram/>
+            Mi instagram
         </a>
     </div>
   )
